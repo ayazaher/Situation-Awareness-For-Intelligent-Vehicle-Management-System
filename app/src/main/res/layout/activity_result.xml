@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kero2"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/obj_name"
+        android:layout_width="800dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="53dp"
+        android:gravity="center"
+        android:text="Object Name"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/Severty"
+        android:layout_width="800dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/obj_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="46dp"
+        android:gravity="center"
+        android:text="Crash Severity : "
+        android:textColor="@color/tfe_color_primary"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="800dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Severty"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center"
+        android:text="Low / Medium / high "
+        android:textColor="@color/tfe_color_primary"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/circle"
+        android:layout_width="178dp"
+        android:layout_height="137dp"
+        android:layout_below="@+id/res"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="118dp"
+
+        android:gravity="center" />
+</RelativeLayout>
